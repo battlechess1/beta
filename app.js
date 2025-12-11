@@ -159,6 +159,20 @@ document.getElementById("tile-195").classList.add("inactive");
 document.getElementById("tile-196").classList.add("inactive");
 
 
+function spawnDragon(tileNumber) {
+  const tile = document.getElementById("tile-" + tileNumber);
+  const piece = document.createElement("div");
+
+  piece.classList.add("piece", "dragon");  
+  piece.dataset.type = "dragon"; // optional identifier
+
+  tile.appendChild(piece);
+
+  piece.addEventListener("click", () => selectPiece(piece));
+}
+
+spawnDragon(50);
+
 // --- Pieces to spawn ---
 const piecesToSpawn = [
   // Black pieces
