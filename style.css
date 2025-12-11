@@ -6,6 +6,8 @@ body {
   align-items:center;
   background-color:#0d1117;
   color:white;
+  width:100vw;
+  height:max-content;
 }
 
 h2 {
