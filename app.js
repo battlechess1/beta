@@ -196,7 +196,6 @@ const piecesToSpawn = [
   { id: "tile-19", type: "queen", color: "black" },
   { id: "tile-23", type: "queen", color: "black" },
   { id: "tile-9", type: "king", color: "black" },
-   spawnDivOnTile(50, ["piece", "dragon"]);,
 
   // White pieces (mirrored)
   { id: "tile-171", type: "pawn", color: "white" },
