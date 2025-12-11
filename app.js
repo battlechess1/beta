@@ -158,6 +158,8 @@ document.getElementById("tile-194").classList.add("inactive");
 document.getElementById("tile-195").classList.add("inactive");
 document.getElementById("tile-196").classList.add("inactive");
 
+document.getElementById("tile-185").classList.add("unlock");
+document.getElementById("tile-112").classList.add("unlock-dark");
 
 
 function spawnDivOnTile(tileNumber, classList = []) {
@@ -195,7 +197,6 @@ const piecesToSpawn = [
   { id: "tile-19", type: "queen", color: "black" },
   { id: "tile-23", type: "queen", color: "black" },
   { id: "tile-9", type: "king", color: "black" },
-  { id: "tile-85", type: "unlock", color: "black" },
 
 
 
@@ -216,7 +217,6 @@ const piecesToSpawn = [
   { id: "tile-178", type: "queen", color: "white" },
   { id: "tile-174", type: "queen", color: "white" },
   { id: "tile-188", type: "king", color: "white" },
-  { id: "tile-112", type: "unlock", color: "white" },
 ];
 
 
@@ -242,7 +242,6 @@ function spawnPiece(tileId, type, color) {
     queen: color === "black" ? "♛" : "♕",
     king: color === "black" ? "♚" : "♔",
     knight: color === "black" ? "♞" : "♘",
-    unlock: "🔓"
   };
   piece.textContent = symbols[type];
 
