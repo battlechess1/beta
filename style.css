@@ -15,6 +15,9 @@ h2 {
   color:white;
 }
 
+.unlock {
+  background: red;     /* your new piece color */
+}
 
 #board {
   width: 98vw; /* 14 × 40px */
