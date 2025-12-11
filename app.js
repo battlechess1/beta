@@ -188,8 +188,8 @@ const piecesToSpawn = [
   { id: "tile-138", type: "pawn", color: "white" },
   { id: "tile-185", type: "rook", color: "white" }, // mirrored rooks
   { id: "tile-186", type: "rook", color: "white" },
-  { id: "tile-147", type: "knight", color: "black" },
-  { id: "tile-148", type: "knight", color: "black" },
+  { id: "tile-147", type: "knight", color: "white" },
+  { id: "tile-148", type: "knight", color: "white" },
   { id: "tile-187", type: "bishop", color: "white" },
   { id: "tile-173", type: "bishop", color: "white" },
   { id: "tile-163", type: "bishop", color: "white" },
