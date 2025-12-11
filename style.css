@@ -15,6 +15,18 @@ h2 {
   color:yellow;
 }
 
+.unlock {
+  width: 6vw;
+  height: 6vw;
+  background-image: url("dragon.png"); /* your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;   /* optional, remove if you want the image square */
+  cursor: pointer;
+}
+
+
 #board {
   width: 98vw; /* 14 × 40px */
   height: 98vw;
