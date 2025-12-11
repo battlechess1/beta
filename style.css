@@ -16,11 +16,11 @@ h2 {
 }
 
 .unlock {
-  background: red;     /* your new piece color */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("unlock.png"); /* or unlock.svg */
 }
-
-.unlock.black { background: teal; }
-.unlock.white { background: skyblue; }
 
 
 #board {
