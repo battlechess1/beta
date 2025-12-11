@@ -16,7 +16,7 @@ h2 {
 
 #board {
   width: 238px; /* 14 × 40px */
-  height: 238px
+  height: 238px;
   display: grid;
   grid-template-columns: repeat(14, 17px);
   grid-template-rows: repeat(14, 17px);
