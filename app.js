@@ -195,6 +195,9 @@ const piecesToSpawn = [
   { id: "tile-19", type: "queen", color: "black" },
   { id: "tile-23", type: "queen", color: "black" },
   { id: "tile-9", type: "king", color: "black" },
+  { id: "tile-85", type: "unlock", color: "black" },
+
+
 
   // White pieces (mirrored)
   { id: "tile-171", type: "pawn", color: "white" },
@@ -213,6 +216,7 @@ const piecesToSpawn = [
   { id: "tile-178", type: "queen", color: "white" },
   { id: "tile-174", type: "queen", color: "white" },
   { id: "tile-188", type: "king", color: "white" },
+  { id: "tile-112", type: "unlock", color: "white" },
 ];
 
 
