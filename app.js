@@ -28,7 +28,7 @@ document.getElementById("tile-76").classList.add("light-tile");
 document.getElementById("tile-78").classList.add("light-tile");
 document.getElementById("tile-80").classList.add("light-tile");
 document.getElementById("tile-82").classList.add("light-tile");
-document.getElementById("tile-85").classList.add("light-tile");
+
 document.getElementById("tile-87").classList.add("light-tile");
 document.getElementById("tile-89").classList.add("light-tile");
 document.getElementById("tile-91").classList.add("light-tile");
@@ -38,7 +38,7 @@ document.getElementById("tile-102").classList.add("light-tile");
 document.getElementById("tile-104").classList.add("light-tile");
 document.getElementById("tile-106").classList.add("light-tile");
 document.getElementById("tile-110").classList.add("light-tile");
-document.getElementById("tile-112").classList.add("light-tile");
+
 document.getElementById("tile-115").classList.add("light-tile");
 document.getElementById("tile-117").classList.add("light-tile");
 document.getElementById("tile-119").classList.add("light-tile");
