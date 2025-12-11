@@ -177,8 +177,6 @@ function spawnDivOnTile(tileNumber, classList = []) {
 
 // --- Pieces to spawn ---
 const piecesToSpawn = [
-  spawnDivOnTile(85, ["piece", "dragon"]);,
-  spawnDivOnTile(112, ["piece", "dragon"]);,
   // Black pieces
   { id: "tile-59", type: "pawn", color: "black" },
   { id: "tile-60", type: "pawn", color: "black" },
