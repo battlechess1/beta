@@ -225,7 +225,7 @@ const piecesToSpawn = [
   { id: "tile-188", type: "king", color: "white" },
 ];
 
-spawnUnlock(50);     // example tile
+spawnUnlock(85);     // example tile
 
 
 piecesToSpawn.forEach(p => spawnPiece(p.id, p.type, p.color));
