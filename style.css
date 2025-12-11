@@ -40,14 +40,10 @@ h2 {
 
 .unlock-dark {
   background: red; 
-  pointer-events: none; /* optional, prevents clicks */
-  opacity: 0.3;
 }
 
 .unlock {
   background: red; 
-  pointer-events: none; /* optional, prevents clicks */
-  opacity: 0.3;
 }
 
 
