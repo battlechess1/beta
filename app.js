@@ -237,7 +237,8 @@ function spawnPiece(tileId, type, color) {
     bishop: color === "black" ? "♝" : "♗",
     queen: color === "black" ? "♛" : "♕",
     king: color === "black" ? "♚" : "♔",
-    knight: color === "black" ? "♞" : "♘"
+    knight: color === "black" ? "♞" : "♘",
+    unlock: "🔓"
   };
   piece.textContent = symbols[type];
 
