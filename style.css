@@ -19,6 +19,10 @@ h2 {
   background: red;     /* your new piece color */
 }
 
+.unlock.black { background: teal; }
+.unlock.white { background: skyblue; }
+
+
 #board {
   width: 98vw; /* 14 × 40px */
   height: 98vw;
