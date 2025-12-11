@@ -15,18 +15,18 @@ h2 {
 }
 
 #board {
-  width: 98vw; /* 14 × 40px */
-  height: 98vw;
+  width: 238px; /* 14 × 40px */
+  height: 238px
   display: grid;
-  grid-template-columns: repeat(14, 7vw);
-  grid-template-rows: repeat(14, 7vw);
+  grid-template-columns: repeat(14, 17px);
+  grid-template-rows: repeat(14, 17px);
   border: 2px solid #888;
   padding:0px;
 }
 
 .tile {
-  width: 7vw;
-  height: 7vw;
+  width: 17px;
+  height: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
