@@ -158,6 +158,17 @@ document.getElementById("tile-194").classList.add("inactive");
 document.getElementById("tile-195").classList.add("inactive");
 document.getElementById("tile-196").classList.add("inactive");
 
+function spawnUnlock(tileNumber) {
+  const tile = document.getElementById("tile-" + tileNumber);
+  if (!tile) return;
+
+  const piece = document.createElement("div");
+  piece.classList.add("piece", "unlock");
+  tile.appendChild(piece);
+
+  // enable tap-to-move
+  piece.addEventListener("click", () => selectPiece(piece));
+}
 
 function spawnDivOnTile(tileNumber, classList = []) {
   const tile = document.getElementById("tile-" + tileNumber);
@@ -214,9 +225,13 @@ const piecesToSpawn = [
   { id: "tile-188", type: "king", color: "white" },
 ];
 
+spawnUnlock(50);     // example tile
+
+
 piecesToSpawn.forEach(p => spawnPiece(p.id, p.type, p.color));
 
 let selectedPiece = null;
+
 
 function spawnPiece(tileId, type, color) {
   const tile = document.getElementById(tileId);
