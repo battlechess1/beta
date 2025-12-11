@@ -35,8 +35,8 @@ h2 {
 }
 
 .piece {
-  width: 5vw;
-  height: 5vw;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
