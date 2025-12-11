@@ -236,7 +236,7 @@ function spawnPiece(tileId, type, color) {
 
   // Unicode chess symbols
   const symbols = {
-    pawn: color === "black" ? "♟" : "♙",
+    pawn: color === "black",
     rook: color === "black" ? "♜" : "♖",
     bishop: color === "black" ? "♝" : "♗",
     queen: color === "black" ? "♛" : "♕",
