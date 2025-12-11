@@ -159,10 +159,26 @@ document.getElementById("tile-195").classList.add("inactive");
 document.getElementById("tile-196").classList.add("inactive");
 
 
+function spawnDivOnTile(tileNumber, classList = []) {
+  const tile = document.getElementById("tile-" + tileNumber);
+  if (!tile) return;
 
+  const div = document.createElement("div");
+  div.classList.add(...classList);
+
+  // Optional: make it behave like a piece
+  if (classList.includes("piece")) {
+    div.addEventListener("click", () => selectPiece(div));
+  }
+
+  tile.appendChild(div);
+  return div;
+}
 
 // --- Pieces to spawn ---
 const piecesToSpawn = [
+  spawnDivOnTile(85, ["piece", "dragon"]);,
+  spawnDivOnTile(112, ["piece", "dragon"]);,
   // Black pieces
   { id: "tile-59", type: "pawn", color: "black" },
   { id: "tile-60", type: "pawn", color: "black" },
@@ -180,6 +196,7 @@ const piecesToSpawn = [
   { id: "tile-19", type: "queen", color: "black" },
   { id: "tile-23", type: "queen", color: "black" },
   { id: "tile-9", type: "king", color: "black" },
+   spawnDivOnTile(50, ["piece", "dragon"]);,
 
   // White pieces (mirrored)
   { id: "tile-171", type: "pawn", color: "white" },
