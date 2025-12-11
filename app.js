@@ -158,7 +158,7 @@ document.getElementById("tile-194").classList.add("inactive");
 document.getElementById("tile-195").classList.add("inactive");
 document.getElementById("tile-196").classList.add("inactive");
 
-document.getElementById("tile-185").classList.add("unlock");
+document.getElementById("tile-85").classList.add("unlock");
 document.getElementById("tile-112").classList.add("unlock-dark");
 
 
