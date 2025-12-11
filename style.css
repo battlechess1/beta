@@ -15,12 +15,7 @@ h2 {
   color:white;
 }
 
-.unlock {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("unlock.png"); /* or unlock.svg */
-}
+
 
 
 #board {
@@ -42,6 +37,19 @@ h2 {
   background-color:#7a995a;
   user-select: none;
 }
+
+.unlock-dark {
+  background: red; 
+  pointer-events: none; /* optional, prevents clicks */
+  opacity: 0.3;
+}
+
+.unlock {
+  background: red; 
+  pointer-events: none; /* optional, prevents clicks */
+  opacity: 0.3;
+}
+
 
 .piece {
   width: 6vw;
