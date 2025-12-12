@@ -1,7 +1,7 @@
 const board = document.getElementById("board");
 
 // --- Build 14x14 grid ---
-for (let i = 1; i <= 169; i++) {
+for (let i = 1; i <= 144; i++) {
   const tile = document.createElement("div");
   tile.classList.add("tile");
   tile.id = `tile-${i}`;
@@ -61,84 +61,35 @@ document.getElementById("tile-160").classList.add("light-tile");
 document.getElementById("tile-1").classList.add("inactive");
 document.getElementById("tile-2").classList.add("inactive");
 document.getElementById("tile-3").classList.add("inactive");
-document.getElementById("tile-4").classList.add("inactive");
 document.getElementById("tile-5").classList.add("inactive");
 document.getElementById("tile-6").classList.add("inactive");
 document.getElementById("tile-7").classList.add("inactive");
-document.getElementById("tile-8").classList.add("inactive");
+document.getElementById("tile-11").classList.add("inactive");
+document.getElementById("tile-12").classList.add("inactive");
+
+
 document.getElementById("tile-13").classList.add("inactive");
 document.getElementById("tile-14").classList.add("inactive");
 document.getElementById("tile-15").classList.add("inactive");
 document.getElementById("tile-16").classList.add("inactive");
-document.getElementById("tile-17").classList.add("inactive");
 document.getElementById("tile-18").classList.add("inactive");
-document.getElementById("tile-20").classList.add("inactive");
-document.getElementById("tile-21").classList.add("inactive");
-document.getElementById("tile-22").classList.add("inactive");
+document.getElementById("tile-19").classList.add("inactive");
+document.getElementById("tile-23").classList.add("inactive");
+document.getElementById("tile-24").classList.add("inactive");
+
+document.getElementById("tile-25").classList.add("inactive");
+document.getElementById("tile-26").classList.add("inactive");
 document.getElementById("tile-27").classList.add("inactive");
 document.getElementById("tile-28").classList.add("inactive");
 document.getElementById("tile-29").classList.add("inactive");
-document.getElementById("tile-30").classList.add("inactive");
-document.getElementById("tile-31").classList.add("inactive");
-document.getElementById("tile-32").classList.add("inactive");
-document.getElementById("tile-33").classList.add("inactive");
-document.getElementById("tile-35").classList.add("inactive");
-document.getElementById("tile-36").classList.add("inactive");
-document.getElementById("tile-41").classList.add("inactive");
-document.getElementById("tile-42").classList.add("inactive");
-document.getElementById("tile-43").classList.add("inactive");
-document.getElementById("tile-44").classList.add("inactive");
-document.getElementById("tile-45").classList.add("inactive");
-document.getElementById("tile-46").classList.add("inactive");
-document.getElementById("tile-47").classList.add("inactive");
-document.getElementById("tile-48").classList.add("inactive");
-document.getElementById("tile-55").classList.add("inactive");
-document.getElementById("tile-56").classList.add("inactive");
-document.getElementById("tile-57").classList.add("inactive");
-document.getElementById("tile-58").classList.add("inactive");
-document.getElementById("tile-69").classList.add("inactive");
-document.getElementById("tile-70").classList.add("inactive");
-document.getElementById("tile-71").classList.add("inactive");
-document.getElementById("tile-72").classList.add("inactive");
-document.getElementById("tile-83").classList.add("inactive");
-document.getElementById("tile-84").classList.add("inactive");
-document.getElementById("tile-89").classList.add("inactive");
-document.getElementById("tile-90").classList.add("inactive");
-document.getElementById("tile-97").classList.add("inactive");
-document.getElementById("tile-98").classList.add("inactive");
-document.getElementById("tile-99").classList.add("inactive");
-document.getElementById("tile-100").classList.add("inactive");
-document.getElementById("tile-107").classList.add("inactive");
-document.getElementById("tile-108").classList.add("inactive");
-document.getElementById("tile-113").classList.add("inactive");
-document.getElementById("tile-114").classList.add("inactive");
-document.getElementById("tile-125").classList.add("inactive");
-document.getElementById("tile-126").classList.add("inactive");
-document.getElementById("tile-127").classList.add("inactive");
-document.getElementById("tile-128").classList.add("inactive");
-document.getElementById("tile-139").classList.add("inactive");
-document.getElementById("tile-140").classList.add("inactive");
-document.getElementById("tile-141").classList.add("inactive");
-document.getElementById("tile-142").classList.add("inactive");
-document.getElementById("tile-149").classList.add("inactive");
-document.getElementById("tile-150").classList.add("inactive");
-document.getElementById("tile-151").classList.add("inactive");
-document.getElementById("tile-152").classList.add("inactive");
-document.getElementById("tile-153").classList.add("inactive");
-document.getElementById("tile-154").classList.add("inactive");
-document.getElementById("tile-155").classList.add("inactive");
-document.getElementById("tile-156").classList.add("inactive");
-document.getElementById("tile-161").classList.add("inactive");
-document.getElementById("tile-162").classList.add("inactive");
-document.getElementById("tile-164").classList.add("inactive");
-document.getElementById("tile-165").classList.add("inactive");
-document.getElementById("tile-166").classList.add("inactive");
-document.getElementById("tile-167").classList.add("inactive");
-document.getElementById("tile-168").classList.add("inactive");
-document.getElementById("tile-169").classList.add("inactive");
 
-document.getElementById("tile-85").classList.add("unlock");
-document.getElementById("tile-112").classList.add("unlock-dark");
+document.getElementById("tile-37").classList.add("inactive");
+document.getElementById("tile-38").classList.add("inactive");
+
+document.getElementById("tile-49").classList.add("inactive");
+document.getElementById("tile-50").classList.add("inactive");
+
+
 
 
 function spawnDivOnTile(tileNumber, classList = []) {
