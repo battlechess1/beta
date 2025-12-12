@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#0d1117;
+  color:white;
+  width:100vw; height:100vh;
+}
+
+h2 {
+  font-size:16px;
+  color:white;
+}
+
+
+
+
+#board {
+  width: 98vw; /* 14 × 40px */
+  height: 98vw;
+  display: grid;
+  grid-template-columns: repeat(14, 7vw);
+  grid-template-rows: repeat(14, 7vw);
+  border: 2px solid #888;
+  padding:0px;
+}
+
+.tile {
+  width: 7vw;
+  height: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#7a995a;
+  user-select: none;
+}
+
+.unlock-dark {
+  background: red; 
+}
+
+.unlock {
+  background: red; 
+}
+
+
+.piece {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  color: white;
+  cursor: pointer;
+}
+
+.piece_black {
+  color: black;
+}
+
+.piece.selected {
+  outline: 2px solid yellow;
+}
+.pawn { background: black; }
+.rook { background: brown; }
+.bishop { background: purple; }
+.queen { background: darkred; }
+.king { background: gold; }
+.knight { background: darkgreen; }
+
+
+.tile.inactive {
+  background: #888; /* gray */
+  pointer-events: none; /* optional, prevents clicks */
+  opacity: 0.3;
+}
+
+.light-tile {
+  background-color:#ecedd1;
+}
