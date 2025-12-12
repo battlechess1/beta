@@ -121,22 +121,22 @@ const piecesToSpawn = [
 
 
   // White pieces (mirrored)
-  { id: "tile-171", type: "pawn", color: "white" },
-  { id: "tile-172", type: "pawn", color: "white" },
-  { id: "tile-133", type: "pawn", color: "white" },
-  { id: "tile-134", type: "pawn", color: "white" },
-  { id: "tile-137", type: "pawn", color: "white" },
-  { id: "tile-138", type: "pawn", color: "white" },
-  { id: "tile-185", type: "rook", color: "white" }, // mirrored rooks
-  { id: "tile-186", type: "rook", color: "white" },
-  { id: "tile-147", type: "knight", color: "white" },
-  { id: "tile-148", type: "knight", color: "white" },
-  { id: "tile-187", type: "bishop", color: "white" },
-  { id: "tile-173", type: "bishop", color: "white" },
-  { id: "tile-163", type: "bishop", color: "white" },
-  { id: "tile-178", type: "queen", color: "white" },
-  { id: "tile-174", type: "queen", color: "white" },
-  { id: "tile-188", type: "king", color: "white" },
+  { id: "tile-71", type: "pawn", color: "white" },
+  { id: "tile-72", type: "pawn", color: "white" },
+  { id: "tile-73", type: "pawn", color: "white" },
+  { id: "tile-74", type: "pawn", color: "white" },
+  { id: "tile-87", type: "pawn", color: "white" },
+  { id: "tile-88", type: "pawn", color: "white" },
+  { id: "tile-85", type: "rook", color: "white" }, // mirrored rooks
+  { id: "tile-86", type: "rook", color: "white" },
+  { id: "tile-97", type: "knight", color: "white" },
+  { id: "tile-98", type: "knight", color: "white" },
+  { id: "tile-89", type: "bishop", color: "white" },
+  { id: "tile-79", type: "bishop", color: "white" },
+  { id: "tile-88", type: "bishop", color: "white" },
+  { id: "tile-78", type: "queen", color: "white" },
+  { id: "tile-74", type: "queen", color: "white" },
+  { id: "tile-88", type: "king", color: "white" },
 ];
 
 
