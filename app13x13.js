@@ -10,7 +10,6 @@ for (let i = 1; i <= 144; i++) {
 }
 
 document.getElementById("tile-4").classList.add("light-tile");
-document.getElementById("tile-8").classList.add("light-tile");
 document.getElementById("tile-10").classList.add("light-tile");
 document.getElementById("tile-21").classList.add("light-tile");
 document.getElementById("tile-8").classList.add("light-tile");
@@ -22,7 +21,6 @@ document.getElementById("tile-2").classList.add("inactive");
 document.getElementById("tile-3").classList.add("inactive");
 document.getElementById("tile-5").classList.add("inactive");
 document.getElementById("tile-6").classList.add("inactive");
-document.getElementById("tile-7").classList.add("inactive");
 document.getElementById("tile-11").classList.add("inactive");
 document.getElementById("tile-12").classList.add("inactive");
 
@@ -70,22 +68,22 @@ function spawnDivOnTile(tileNumber, classList = []) {
 // --- Pieces to spawn ---
 const piecesToSpawn = [
   // Black pieces
-  { id: "tile-59", type: "pawn", color: "black" },
-  { id: "tile-60", type: "pawn", color: "black" },
-  { id: "tile-63", type: "pawn", color: "black" },
-  { id: "tile-64", type: "pawn", color: "black" },
+  { id: "tile-22", type: "pawn", color: "black" },
+  { id: "tile-21", type: "pawn", color: "black" },
+  { id: "tile-42", type: "pawn", color: "black" },
+  { id: "tile-43", type: "pawn", color: "black" },
   { id: "tile-25", type: "pawn", color: "black" },
   { id: "tile-26", type: "pawn", color: "black" },
   { id: "tile-10", type: "rook", color: "black" },
-  { id: "tile-49", type: "knight", color: "black" },
-  { id: "tile-50", type: "knight", color: "black" },
+  { id: "tile-30", type: "knight", color: "black" },
+  { id: "tile-31", type: "knight", color: "black" },
   { id: "tile-9", type: "rook", color: "black" },
   { id: "tile-17", type: "bishop", color: "black" },
   { id: "tile-20", type: "bishop", color: "black" },
-  { id: "tile-24", type: "bishop", color: "black" },
+  { id: "tile-32", type: "bishop", color: "black" },
   { id: "tile-19", type: "queen", color: "black" },
   { id: "tile-23", type: "queen", color: "black" },
-  { id: "tile-9", type: "king", color: "black" },
+  { id: "tile-7", type: "king", color: "black" },
 
 
 
