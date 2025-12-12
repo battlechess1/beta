@@ -104,7 +104,7 @@ const piecesToSpawn = [
   { id: "tile-17", type: "bishop", color: "black" },
   { id: "tile-20", type: "bishop", color: "black" },
   { id: "tile-32", type: "bishop", color: "black" },
-  { id: "tile-20", type: "queen", color: "black" },
+  { id: "tile-8", type: "queen", color: "black" },
   { id: "tile-4", type: "queen", color: "black" },
   { id: "tile-7", type: "king", color: "black" },
 
