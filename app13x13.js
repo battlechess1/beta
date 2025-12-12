@@ -72,8 +72,8 @@ const piecesToSpawn = [
   { id: "tile-21", type: "pawn", color: "black" },
   { id: "tile-42", type: "pawn", color: "black" },
   { id: "tile-43", type: "pawn", color: "black" },
-  { id: "tile-25", type: "pawn", color: "black" },
-  { id: "tile-26", type: "pawn", color: "black" },
+  { id: "tile-39", type: "pawn", color: "black" },
+  { id: "tile-40", type: "pawn", color: "black" },
   { id: "tile-10", type: "rook", color: "black" },
   { id: "tile-30", type: "knight", color: "black" },
   { id: "tile-31", type: "knight", color: "black" },
@@ -81,8 +81,8 @@ const piecesToSpawn = [
   { id: "tile-17", type: "bishop", color: "black" },
   { id: "tile-20", type: "bishop", color: "black" },
   { id: "tile-32", type: "bishop", color: "black" },
-  { id: "tile-19", type: "queen", color: "black" },
-  { id: "tile-23", type: "queen", color: "black" },
+  { id: "tile-20", type: "queen", color: "black" },
+  { id: "tile-4", type: "queen", color: "black" },
   { id: "tile-7", type: "king", color: "black" },
 
 
