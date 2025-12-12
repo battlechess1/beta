@@ -22,8 +22,8 @@ h2 {
   width: 98.8vw; /* 14 × 40px */
   height: 98.8vw;
   display: grid;
-  grid-template-columns: repeat(14, 7.6vw);
-  grid-template-rows: repeat(14, 7.6vw);
+  grid-template-columns: repeat(13, 7.6vw);
+  grid-template-rows: repeat(13, 7.6vw);
   border: 2px solid #888;
   padding:0px;
 }
