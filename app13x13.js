@@ -56,6 +56,20 @@ document.getElementById("tile-59").classList.add("inactive");
 document.getElementById("tile-72").classList.add("inactive");
 document.getElementById("tile-71").classList.add("inactive");
 
+document.getElementById("tile-73").classList.add("inactive");
+document.getElementById("tile-74").classList.add("inactive");
+document.getElementById("tile-86").classList.add("inactive");
+document.getElementById("tile-85").classList.add("inactive");
+document.getElementById("tile-97").classList.add("inactive");
+document.getElementById("tile-98").classList.add("inactive");
+document.getElementById("tile-109").classList.add("inactive");
+document.getElementById("tile-110").classList.add("inactive");
+document.getElementById("tile-121").classList.add("inactive");
+document.getElementById("tile-122").classList.add("inactive");
+document.getElementById("tile-133").classList.add("inactive");
+document.getElementById("tile-134").classList.add("inactive");
+
+
 
 
 function spawnDivOnTile(tileNumber, classList = []) {
