@@ -10,72 +10,11 @@ for (let i = 1; i <= 144; i++) {
 }
 
 document.getElementById("tile-4").classList.add("light-tile");
-document.getElementById("tile-10").classList.add("light-tile");
-document.getElementById("tile-21").classList.add("light-tile");
-document.getElementById("tile-8").classList.add("light-tile");
-document.getElementById("tile-10").classList.add("light-tile");
+
 
 
 document.getElementById("tile-1").classList.add("inactive");
-document.getElementById("tile-2").classList.add("inactive");
-document.getElementById("tile-3").classList.add("inactive");
-document.getElementById("tile-5").classList.add("inactive");
-document.getElementById("tile-6").classList.add("inactive");
-document.getElementById("tile-11").classList.add("inactive");
-document.getElementById("tile-12").classList.add("inactive");
 
-
-document.getElementById("tile-13").classList.add("inactive");
-document.getElementById("tile-14").classList.add("inactive");
-document.getElementById("tile-15").classList.add("inactive");
-document.getElementById("tile-16").classList.add("inactive");
-document.getElementById("tile-18").classList.add("inactive");
-document.getElementById("tile-19").classList.add("inactive");
-document.getElementById("tile-23").classList.add("inactive");
-document.getElementById("tile-24").classList.add("inactive");
-
-document.getElementById("tile-25").classList.add("inactive");
-document.getElementById("tile-26").classList.add("inactive");
-document.getElementById("tile-27").classList.add("inactive");
-document.getElementById("tile-28").classList.add("inactive");
-document.getElementById("tile-29").classList.add("inactive");
-
-document.getElementById("tile-35").classList.add("inactive");
-document.getElementById("tile-36").classList.add("inactive");
-document.getElementById("tile-37").classList.add("inactive");
-document.getElementById("tile-38").classList.add("inactive");
-
-document.getElementById("tile-47").classList.add("inactive");
-document.getElementById("tile-48").classList.add("inactive");
-document.getElementById("tile-49").classList.add("inactive");
-document.getElementById("tile-50").classList.add("inactive");
-
-document.getElementById("tile-60").classList.add("inactive");
-document.getElementById("tile-59").classList.add("inactive");
-
-document.getElementById("tile-72").classList.add("inactive");
-document.getElementById("tile-71").classList.add("inactive");
-
-document.getElementById("tile-73").classList.add("inactive");
-document.getElementById("tile-74").classList.add("inactive");
-document.getElementById("tile-86").classList.add("inactive");
-document.getElementById("tile-85").classList.add("inactive");
-document.getElementById("tile-97").classList.add("inactive");
-document.getElementById("tile-98").classList.add("inactive");
-document.getElementById("tile-109").classList.add("inactive");
-document.getElementById("tile-110").classList.add("inactive");
-document.getElementById("tile-121").classList.add("inactive");
-document.getElementById("tile-122").classList.add("inactive");
-document.getElementById("tile-133").classList.add("inactive");
-document.getElementById("tile-134").classList.add("inactive");
-
-
-document.getElementById("tile-126").classList.add("inactive");
-document.getElementById("tile-127").classList.add("inactive");
-document.getElementById("tile-138").classList.add("inactive");
-document.getElementById("tile-139").classList.add("inactive");
-document.getElementById("tile-140").classList.add("inactive");
-document.getElementById("tile-116").classList.add("inactive");
 
 
 
