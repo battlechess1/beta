@@ -19,18 +19,18 @@ h2 {
 
 
 #board {
-  width: 98vw; /* 14 × 40px */
-  height: 98vw;
+  width: 98.8vw; /* 14 × 40px */
+  height: 98.8vw;
   display: grid;
-  grid-template-columns: repeat(14, 7vw);
-  grid-template-rows: repeat(14, 7vw);
+  grid-template-columns: repeat(14, 7.6vw);
+  grid-template-rows: repeat(14, 7.6vw);
   border: 2px solid #888;
   padding:0px;
 }
 
 .tile {
-  width: 7vw;
-  height: 7vw;
+  width: 7.6vw;
+  height: 7.6vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +48,13 @@ h2 {
 
 
 .piece {
-  width: 6vw;
-  height: 6vw;
+  width: 6.6vw;
+  height: 6.6vw;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 46px;
+  font-size: 52px;
   color: white;
   cursor: pointer;
 }
