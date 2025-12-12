@@ -40,12 +40,21 @@ document.getElementById("tile-27").classList.add("inactive");
 document.getElementById("tile-28").classList.add("inactive");
 document.getElementById("tile-29").classList.add("inactive");
 
+document.getElementById("tile-35").classList.add("inactive");
+document.getElementById("tile-36").classList.add("inactive");
 document.getElementById("tile-37").classList.add("inactive");
 document.getElementById("tile-38").classList.add("inactive");
 
+document.getElementById("tile-47").classList.add("inactive");
+document.getElementById("tile-48").classList.add("inactive");
 document.getElementById("tile-49").classList.add("inactive");
 document.getElementById("tile-50").classList.add("inactive");
 
+document.getElementById("tile-60").classList.add("inactive");
+document.getElementById("tile-59").classList.add("inactive");
+
+document.getElementById("tile-72").classList.add("inactive");
+document.getElementById("tile-71").classList.add("inactive");
 
 
 
