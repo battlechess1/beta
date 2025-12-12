@@ -1,7 +1,7 @@
 const board = document.getElementById("board");
 
 // --- Build 14x14 grid ---
-for (let i = 1; i <= 196; i++) {
+for (let i = 1; i <= 169; i++) {
   const tile = document.createElement("div");
   tile.classList.add("tile");
   tile.id = `tile-${i}`;
@@ -139,24 +139,6 @@ document.getElementById("tile-166").classList.add("inactive");
 document.getElementById("tile-167").classList.add("inactive");
 document.getElementById("tile-168").classList.add("inactive");
 document.getElementById("tile-169").classList.add("inactive");
-document.getElementById("tile-170").classList.add("inactive");
-document.getElementById("tile-175").classList.add("inactive");
-document.getElementById("tile-176").classList.add("inactive");
-document.getElementById("tile-177").classList.add("inactive");
-document.getElementById("tile-179").classList.add("inactive");
-document.getElementById("tile-180").classList.add("inactive");
-document.getElementById("tile-181").classList.add("inactive");
-document.getElementById("tile-182").classList.add("inactive");
-document.getElementById("tile-183").classList.add("inactive");
-document.getElementById("tile-184").classList.add("inactive");
-document.getElementById("tile-189").classList.add("inactive");
-document.getElementById("tile-190").classList.add("inactive");
-document.getElementById("tile-191").classList.add("inactive");
-document.getElementById("tile-192").classList.add("inactive");
-document.getElementById("tile-193").classList.add("inactive");
-document.getElementById("tile-194").classList.add("inactive");
-document.getElementById("tile-195").classList.add("inactive");
-document.getElementById("tile-196").classList.add("inactive");
 
 document.getElementById("tile-85").classList.add("unlock");
 document.getElementById("tile-112").classList.add("unlock-dark");
