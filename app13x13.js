@@ -55,10 +55,7 @@ document.getElementById("tile-145").classList.add("light-tile");
 document.getElementById("tile-147").classList.add("light-tile");
 document.getElementById("tile-158").classList.add("light-tile");
 document.getElementById("tile-160").classList.add("light-tile");
-document.getElementById("tile-171").classList.add("light-tile");
-document.getElementById("tile-173").classList.add("light-tile");
-document.getElementById("tile-186").classList.add("light-tile");
-document.getElementById("tile-188").classList.add("light-tile");
+
 
 
 document.getElementById("tile-1").classList.add("inactive");
