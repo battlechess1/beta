@@ -70,6 +70,16 @@ document.getElementById("tile-133").classList.add("inactive");
 document.getElementById("tile-134").classList.add("inactive");
 
 
+document.getElementById("tile-126").classList.add("inactive");
+document.getElementById("tile-127").classList.add("inactive");
+document.getElementById("tile-138").classList.add("inactive");
+document.getElementById("tile-139").classList.add("inactive");
+document.getElementById("tile-140").classList.add("inactive");
+document.getElementById("tile-116").classList.add("inactive");
+
+
+
+
 
 
 function spawnDivOnTile(tileNumber, classList = []) {
